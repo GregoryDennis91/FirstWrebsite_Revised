@@ -1,0 +1,88 @@
+
+.firstbg{                     /*First background for site title*/
+  color: white;
+  background-color: black;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.secondbg{           /*Secondary background for article content*/
+  color: black;
+  background-color:aquamarine;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.text-center{       /*a tag to center text content*/
+  text-align: center
+}
+
+.wrapper{           /*wraps content*/
+  width: 700px;
+  margin: auto;
+}
+
+header{
+  text-decoration: underline;
+}
+
+footer{                   /*Bottom of site*/
+    color: white;
+    background-color: black;
+    text-align: center
+}
+
+h1{                    /*header sizes*/
+  font-size: 48px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+h3{
+  font-size: 26px;
+}
+
+.thirdbg{                   /*article background*/
+  color: black;
+  background-color: lightblue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 20px; 
+  padding-top: 10px;   
+  
+}
+.container {              /*used for photo*/
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  background-color: yellowgreen;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.item {                   /*traps picture at default size*/
+  width: 10em;
+}
+
+
+/*psudoclasses for links*/
+.secondbg a:visited { color: grey; }
+.secondbg a:hover   { color: green; }
+.secondbg a:active  { color: forestgreen; }
+.secondbg a:link{color: black;}
+
+
+/*fixes email to match links*/
+article a{
+  color: black;
+}
